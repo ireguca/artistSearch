@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Search Page</title>
+
+	<h1>Search Page</h1>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src = "js/jquery-2.2.4.min.js"></script>
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<h1>Welcome User</h1>
+
+		Artist: <input class = "artist" type="text" placeholder="Search an artist">
+
+		<button id = "searchButton" >Search</button>
+
+	</div>
+
+	<div>
+		
+		<div class="row">
+
+			<div class="col s4" id="artistBox"><h3>Artists</h3></div>
+			<div class="col s4" id="albumBox"><h3>Albums</h3></div>
+			<div class="col s4" id="songBox"><h3>Songs</h3></div>
+
+		</div>
+
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Song Media</h4>
+	      </div>
+	      <div class="modal-body">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-close" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-play">Play</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src = "js/search.js"></script>
+
+</body>
+
+</html>

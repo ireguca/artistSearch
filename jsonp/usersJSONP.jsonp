@@ -1,0 +1,10 @@
+usersJSONP ( {
+	'users': [ {
+			'name': 'a',
+			'password': '1'
+	},
+	{
+			'name': 'b',
+			'password': '2'
+	}]
+})
